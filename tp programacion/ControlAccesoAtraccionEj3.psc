@@ -1,12 +1,12 @@
 //
 //Ejercicio 3
 //Desarrolle un sistema automatizado de control de acceso para la
-//	atracción extrema de un parque de diversiones. El programa debe
+//	atracciÃ³n extrema de un parque de diversiones. El programa debe
 //	solicitar la estatura del cliente (en metros) y preguntar si posee un
 //		pase VIP mediante una respuesta de texto (S/N). Utilizando
-//	operadores lógicos, evalúe la autorización: un usuario puede ingresar
-//		únicamente si mide más de 1.50 metros Y además cuenta con el pase
-//			VIP habilitado. El resultado final debe ser un valor lógico (Verdadero o
+//	operadores lÃ³gicos, evalÃºe la autorizaciÃ³n: un usuario puede ingresar
+//		Ãºnicamente si mide mÃ¡s de 1.50 metros Y ademÃ¡s cuenta con el pase
+//			VIP habilitado. El resultado final debe ser un valor lÃ³gico (Verdadero o
 //Falso)
 
 Algoritmo ControlAccesoAtraccion
@@ -28,11 +28,11 @@ Escribir "ingresa la estatura del cliente en metros"
  
     
 	Si estatura <= 0 Entonces
-		Escribir "Error: la estatura no puede ser cero ni un número negativo"
+		Escribir "Error: la estatura no puede ser cero ni un nÃºmero negativo"
 	FinSi
 	Hasta Que estatura > 0 
 	
-	Escribir "¿Tiene pase vip? respondé con S o N:"
+	Escribir "Â¿Tiene pase vip? respondÃ© con S o N:"
     Leer respuestaVip
 	
     Si estatura > 1.50 Y (respuestaVip = "S" O respuestaVip = "s") Entonces
@@ -45,7 +45,7 @@ Escribir "ingresa la estatura del cliente en metros"
 	
 	
 	
-    Escribir "¿Puede pasar a la atraccion?"
+    Escribir "Puede pasar a la atraccion!!"
     Escribir puedeIngresar
     
 FinAlgoritmo
